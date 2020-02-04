@@ -143,12 +143,12 @@ figure figcaption {
   font-style: italic;
   font-family: "Quicksand", Arial, sans-serif;
 }
-
+/* 
 @media screen and (max-width: 480px) {
   figure figcaption {
     width: 100%;
   }
-}
+} */
 
 canvas {
   position: absolute;
