@@ -475,7 +475,7 @@ body.offcanvas .nav-toggle {
   z-index: 6;
   background-size: cover;
   background-position: bottom center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   height: 100vh;
 }
 
