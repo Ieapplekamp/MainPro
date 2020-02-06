@@ -211,6 +211,10 @@ canvas {
         3.HELPER
 ============================*/
 
+.cheat {
+  display: hidden;
+}
+
 #main {
   width: 85%;
   float: right;
