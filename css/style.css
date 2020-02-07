@@ -489,8 +489,9 @@ body.offcanvas .nav-toggle {
     right: 25px;
     color: #00ffef;
     background: transparent;
-    padding: 5px 10px;
+    padding: 1px 8px;
     border: 1px solid #00ffef;
+    border-radius: 70px;
     z-index: 5;
 }
 
@@ -500,7 +501,7 @@ body.offcanvas .nav-toggle {
     right: 25px;
     color: #fff;
     background: #00ffef;
-    padding: 5px 10px;
+    padding: 1px 8px;
     border: 1px solid #00ffef;
 }
 
@@ -603,6 +604,7 @@ body.offcanvas .nav-toggle {
   background: transparent;
   color: #00ffef;
   border: 1px solid #00ffef;
+  border-radius: 5px;
 }
 
 .btn-primary:hover,
@@ -864,7 +866,8 @@ body.offcanvas .nav-toggle {
   display: inline-block;
   text-align: center;
   background: transparent;
-  border: 2px solid #00ffef;
+  border: 1px solid #00ffef;
+  border-radius: 100%;
   padding: .5em .8em;
   color: #00ffef;
   letter-spacing: 10px;
@@ -1060,6 +1063,7 @@ body.offcanvas .nav-toggle {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 15px !important;
+  border-radius: 5px;
 }
 
 #banner .special {
@@ -1921,7 +1925,8 @@ body.offcanvas .nav-toggle {
   display: inline-block;
   text-align: center;
   background: transparent;
-  border: 2px solid #00ffef;
+  border: 1px solid #00ffef;
+  border-radius: 100%;
   padding: .5em .8em;
   color: #00ffef;
   letter-spacing: 10px;
