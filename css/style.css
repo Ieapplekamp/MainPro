@@ -210,10 +210,6 @@ canvas {
         3.HELPER
 ============================*/
 
-.cheat {
-  display: hidden;
-}
-
 #main {
   width: 85%;
   float: right;
@@ -1239,7 +1235,7 @@ body.offcanvas .nav-toggle {
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: 400;
-  z-index:600;
+  z-index: 1;
 }
 
 #banner .banner-about-down:hover {
@@ -1837,7 +1833,7 @@ body.offcanvas .nav-toggle {
     content: '';
     height: 166px;
     width: 144px;
-    bottom: 227px;
+    bottom: 166px;
     left: 270px;
     opacity: 0.4;
 }
@@ -1863,7 +1859,10 @@ body.offcanvas .nav-toggle {
 ========================*/
 
 #main-footer {
-  padding: 120px;
+  padding-top: 120px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 60px;
   background: #000;
 }
 
