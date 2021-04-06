@@ -543,9 +543,9 @@ body.offcanvas .nav-toggle {
 }
 
 @media (max-width: 576px) {
-  #banner .banner-about-down {
+  /* #banner .banner-about-down {
     left: 0!important;
-  }
+  } */
   .subtle-text {
     display: none;
   }
@@ -824,10 +824,21 @@ body.offcanvas .nav-toggle {
   transition: 0.5s;
 }
 
+#aside #logo {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 3em;
+  display: block;
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   #aside {
     width: 30%;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -840,16 +851,6 @@ body.offcanvas .nav-toggle {
     transform: translateX(-270px);
     padding-top: 4em;
   }
-}
-
-#aside #logo {
-  text-align: right;
-  font-weight: 400;
-  font-size: 22px;
-  text-transform: uppercase;
-  margin-bottom: 3em;
-  display: block;
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -877,7 +878,7 @@ body.offcanvas .nav-toggle {
 }
 
 #aside #main-menu ul {
-  text-align: right;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -964,21 +965,21 @@ body.offcanvas .nav-toggle {
 
 #aside .footer-aside {
   position: absolute;
+  top:initial;
   bottom: 40px;
-  right: 1.5em;
+  right: 0;
+  left: 0;
   font-size: 18px;
-  text-align: right;
+  text-align: center;
   font-weight: 400;
   color: #fff;
-  padding: 0 20px;
+  padding: 20px;
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
   #aside .footer-aside {
-    position: relative;
-    bottom: 0;
-    right: 0;
-    padding: 0;
+    position: absolute;
   }
 }
 
@@ -1219,56 +1220,6 @@ body.offcanvas .nav-toggle {
   }
 }
 
-#banner .banner-about-down {
-  font-family: "Quicksand", Arial, sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 0;
-  margin-right: auto !important;
-  margin-left: auto !important;
-  text-align: center;
-  top: 642px;
-  left: calc(15% - 5px);
-  right: 0;
-  width: 24px;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  z-index: 1;
-}
-
-#banner .banner-about-down:hover {
-  top: 660px;
-}
-
-#banner .banner-about-down .down-one {
-  text-orientation: mixed;
-  -ms-writing-mode: tb-lr;
-  writing-mode: vertical-lr;
-  white-space: nowrap;
-  transform: rotate(180deg);
-}
-
-#banner .banner-about-down .down-two {
-    display: block;
-    height: 30px;
-    margin-bottom: 5px;
-    width: 1px;
-    background: #ffffff;
-    margin-left: 12px;
-}
-
-@media screen and (max-width: 768px) {
-  #banner .banner-about-down .down-two {
-      display: block;
-      height: 80px;
-      margin-bottom: 5px;
-      width: 1px;
-      background: #ffffff;
-      margin-left: 12px;
-  }
-}
 
 /*===========================
         7.ABOUT
